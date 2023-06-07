@@ -1,0 +1,30 @@
+{
+    "jokes": [
+        "Why don't scientists trust atoms? Because they make up everything.",
+        "Why did the chicken go to the seance? To talk to the other side.",
+        "Why don't some animals play cards? Because they're afraid of cheetahs."
+    ],
+    "quotes": [
+        "The only way to do great work is to love what you do. - Steve Jobs",
+        "Believe you can and you're halfway there. - Theodore Roosevelt",
+        "Don't watch the clock; do what it does. Keep going. - Sam Levenson"
+    ],
+    "compliments": [
+        "You're an awesome friend.",
+        "You're a gift to those around you.",
+        "You're a smart cookie."
+    ],
+  "stoic_quotes": [
+    "Waste no more time arguing what a good man should be. Be one. - Marcus Aurelius",
+    "The best revenge is not to be like your enemy. - Marcus Aurelius",
+    "It is not events that disturb people, it is their judgements concerning them. - Epictetus",
+    "He who fears death will never do anything worth of a man who is alive. - Seneca",
+    "It's not because things are difficult that we dare not venture. It's because we dare not venture that they are difficult. - Seneca"
+  ],
+  "facts": [
+    "Did you know? The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.",
+    "Did you know? A single cloud can weight more than 1 million pounds.",
+    "Did you know? A human will eat on average 70 assorted insects and 10 spiders while sleeping.",
+    "Did you know? James Buchanan, the 15th U.S. president continuously bought slaves with his own money in order to free them."
+  ]
+}
