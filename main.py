@@ -33,13 +33,22 @@ async def trivia(ctx):
   await ctx.send(f"Here's a question for you:\n{question}")
 
   def check(m):
-    return m.content.lower() == correct_answer.lower(
-    ) and m.channel == ctx.channel
+    return m.channel == ctx.channel
 
-  msg = await bot.wait_for('message', check=check)
-  await ctx.send(
-    f"Congratulations {msg.author.mention}, you got the correct answer: {correct_answer}!"
-  )
+  attempts = 0
+  while attempts < 3:
+    msg = await bot.wait_for('message', check=check)
+    if msg.content.lower() == correct_answer.lower():
+      await ctx.send(
+        f"{msg.author.mention} got the correct answer: {correct_answer}!")
+      return
+    else:
+      attempts += 1
+      if attempts == 2:
+        await ctx.send("Hint: The first letter of the answer is " +
+                       correct_answer[0])
+      elif attempts == 3:
+        await ctx.send("Sorry, the correct answer was: " + correct_answer)
 
 
 @bot.command()
