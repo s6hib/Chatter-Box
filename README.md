@@ -6,7 +6,7 @@ Chatter Box is a feature-rich Discord bot that can perform a variety of tasks, p
 
 Here are some of the commands you can use with Chatter Box:
 
-- `!trivia`: Chatter Box will fetch a trivia question from the Open Trivia Database. Respond with your answer, and the bot will let you know if you're correct.
+- `!trivia`: Chatter Box will fetch a trivia question from the Open Trivia Database. Respond with your answer, and the bot will let you know if you're correct. 3 attempts total and it'll give you a hint after 2 failed attempts!
 
 - `!joke`: Need a laugh? Chatter Box will send a random joke from its repertoire.
 
