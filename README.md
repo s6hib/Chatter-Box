@@ -25,7 +25,10 @@ Here are some of the commands you can use with Chatter Box:
 To get Chatter Box running on your server, follow these steps:
 
 1. Clone this repository.
-2. Install the necessary Python packages with `pip install -r requirements.txt`.
+2. Install the necessary Python packages with the following commands:
+   - `pip install discord.py`
+   - `pip install requests`
+   - `pip install random`
 3. Replace `'your-token-here'` with your actual Discord bot token in `main.py`.
 4. Run `main.py` with Python 3.7 or later.
 
